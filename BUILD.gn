@@ -1,0 +1,18 @@
+import("//config.gni")
+
+declare_args() {
+  output_dir = ""
+}
+
+group("All") {
+  deps = [
+    ":src",
+  ]
+}
+
+group("src") {
+  deps = [
+    ":util",
+  ]
+}
+

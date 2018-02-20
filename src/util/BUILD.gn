@@ -1,0 +1,6 @@
+static_library("sub") {
+  sources = [
+    "sub.cc",
+  ]
+}
+

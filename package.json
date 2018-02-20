@@ -1,0 +1,23 @@
+{
+  "name": "gn-training",
+  "version": "1.0.0",
+  "description": "training for GN/GNI build system",
+  "main": "index.js",
+  "scripts": {
+    "start": "gn gen dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aDaisukeKondo/gn-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aDaisukeKondo/gn-training/issues"
+  },
+  "homepage": "https://github.com/aDaisukeKondo/gn-training#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gn": "^3.0.0"
+  }
+}
